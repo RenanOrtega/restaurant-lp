@@ -23,3 +23,23 @@ ScrollReveal().reveal(".header__content .header__btn", {
     ...scrollRevealOption,
     delay: 1500,
 });
+
+ScrollReveal().reveal(".explore__image img", {
+    ...scrollRevealOption,
+    origin: "left",
+});
+
+ScrollReveal().reveal(".explore__content .section__header", {
+    ...scrollRevealOption,
+    delay: 500,
+});
+
+ScrollReveal().reveal(".explore__content .section__description", {
+    ...scrollRevealOption,
+    delay: 1000,
+});
+
+ScrollReveal().reveal(".explore__content .explore__btn", {
+    ...scrollRevealOption,
+    delay: 1500,
+});

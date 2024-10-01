@@ -1,0 +1,35 @@
+.explore__container {
+    display: grid;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.explore__image img {
+    max-width: 400px;
+    margin-inline: auto;
+    filter: drop-shadow(0 0 50px rgba(252, 127, 9, 0.4));
+}
+
+.explore__content .section__description {
+    margin-bottom: 2rem;
+}
+
+.explore__btn {
+    text-align: center;
+}
+
+@media (width > 768px) {
+    .explore__container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .explore__content .section__header {
+        max-width: 500px;
+    }
+
+    .explore__content :is(.section__header, .section__description),
+    .explore__btn {
+        text-align: left;
+    }
+}
