@@ -57,3 +57,9 @@
 .swiper-pagination-bullet-active {
     background-color: var(--primary-color);
 }
+
+@media (width > 768px) {
+    .client__swiper {
+        padding: 3rem 2rem;
+    }
+}

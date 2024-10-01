@@ -99,3 +99,9 @@
         justify-content: flex-start;
     }
 }
+
+@media (width > 1024px) {
+    .chef__bg {
+        max-width: 375px;
+    }
+}
