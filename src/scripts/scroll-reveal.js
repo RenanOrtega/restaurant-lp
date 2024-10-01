@@ -48,3 +48,24 @@ ScrollReveal().reveal(".banner__card", {
     ...scrollRevealOption,
     interval: 500,
 });
+
+ScrollReveal().reveal(".chef__image img", {
+    ...scrollRevealOption,
+    origin: "right",
+});
+
+ScrollReveal().reveal(".chef__content .section__header", {
+    ...scrollRevealOption,
+    delay: 500,
+});
+
+ScrollReveal().reveal(".chef__content .section__description", {
+    ...scrollRevealOption,
+    delay: 1000,
+});
+
+ScrollReveal().reveal(".chef__list li", {
+    ...scrollRevealOption,
+    delay: 1500,
+    interval: 500,
+});
