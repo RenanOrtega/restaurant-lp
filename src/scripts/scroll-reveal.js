@@ -43,3 +43,8 @@ ScrollReveal().reveal(".explore__content .explore__btn", {
     ...scrollRevealOption,
     delay: 1500,
 });
+
+ScrollReveal().reveal(".banner__card", {
+    ...scrollRevealOption,
+    interval: 500,
+});
