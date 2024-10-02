@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-    --primary-color: #FC7F09;
-    --primary-color-light: #FFFCFA;
-    --primary-color-dark: #DB6E09;
-    --text-dark: #18181B;
-    --text-light: #6B7280;
-    --white: #FFFFFF;
+    --primary-color: #fc7f09;
+    --primary-color-light: #fffcfa;
+    --primary-color-dark: #db6e09;
+    --text-dark: #18181b;
+    --text-light: #6b7280;
+    --white: #ffffff;
     --max-width: 1200px;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .btn {
-    padding: .75rem 1.5rem;
+    padding: 0.75rem 1.5rem;
     outline: none;
     border: none;
     white-space: nowrap;
@@ -52,16 +52,6 @@
 
 .btn:hover {
     background-color: var(--primary-color-dark);
-}
-
-.logo a {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-color);
-}
-
-.logo a span {
-    color: var(--text-dark);
 }
 
 img {
@@ -84,5 +74,5 @@ body {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
